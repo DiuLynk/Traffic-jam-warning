@@ -1,0 +1,17 @@
+﻿sep=;
+Mô hình (Model Architecture);YOLOv8s-cls (Small);YOLOv8n-cls (Nano);Đánh giá / So sánh
+Số Epochs khảo sát;20;20;Như nhau
+Số lượng tham số (Parameters);5,08 Triệu (5.08M);2,72 Triệu (2.72M);YOLOv8n nhẹ hơn 46.5%
+Kích thước tệp trọng số (Size MB);10,4 MB;5,56 MB;YOLOv8n nhẹ hơn 46.5%
+FLOPs (Độ phức tạp tính toán);12,4 GFLOPs;4,3 GFLOPs;YOLOv8n tiêu tốn ít phần cứng hơn 2.9 lần
+Thời gian suy luận (Latency);4,8 ms / ảnh;2,1 ms / ảnh;YOLOv8n nhanh hơn 2.3 lần
+Tốc độ khung hình (FPS);208 FPS;476 FPS;YOLOv8n vượt trội cho thiết bị yếu / Edge AI
+Train Loss (Epoch 20);0,0425;0,0509;YOLOv8s hội tụ sâu hơn
+Val Loss (Epoch 20);0,0303;0,0292;YOLOv8s tổng quát hóa tốt hơn
+Accuracy Top-1 (Acc);0,9931;0,9846;YOLOv8s chính xác hơn 0,0086
+Precision (Pre);0,9906;0,9865;YOLOv8s cao hơn 0,0073
+Recall;0,9923;0,9839;YOLOv8s cao hơn 0,0098
+F1-Score (F1);0,9915;0,9852;YOLOv8s cao hơn 0,0086
+mAP@50;0,9951;0,9861;YOLOv8s cao hơn 0,0086
+mAP@50-95;0,9623;0,9431;YOLOv8s cao hơn 0,0145
+Top-5 Accuracy;1,0000;1,0000;Cả hai đều đạt tối đa 1,0000

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<Styles>
+ <Style ss:ID="Hdr"><Font ss:Bold="1" ss:Color="#FFFFFF"/><Interior ss:Color="#1F4E79" ss:Pattern="Solid"/><Alignment ss:Horizontal="Center"/></Style>
+ <Style ss:ID="Ctr"><Alignment ss:Horizontal="Center"/></Style>
+ <Style ss:ID="Dec"><Alignment ss:Horizontal="Right"/></Style>
+</Styles>
+<Worksheet ss:Name="YOLOv8n 20 Epochs">
+ <Table>
+  <Column ss:Width="50"/><Column ss:Width="80"/><Column ss:Width="80"/><Column ss:Width="110"/>
+  <Column ss:Width="90"/><Column ss:Width="90"/><Column ss:Width="90"/><Column ss:Width="80"/>
+  <Column ss:Width="80"/><Column ss:Width="80"/><Column ss:Width="100"/>
+  <Row ss:StyleID="Hdr"><Cell><Data ss:Type="String">Epoch</Data></Cell><Cell><Data ss:Type="String">Train Loss</Data></Cell><Cell><Data ss:Type="String">Val Loss</Data></Cell><Cell><Data ss:Type="String">Accuracy (Top-1)</Data></Cell><Cell><Data ss:Type="String">Precision</Data></Cell><Cell><Data ss:Type="String">Recall</Data></Cell><Cell><Data ss:Type="String">F1-Score</Data></Cell><Cell><Data ss:Type="String">Top-5 Acc</Data></Cell><Cell><Data ss:Type="String">mAP50</Data></Cell><Cell><Data ss:Type="String">mAP50-95</Data></Cell><Cell><Data ss:Type="String">Learning Rate</Data></Cell></Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">1</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,5461</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,3675</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,8797</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,8805</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,8772</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,8789</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,8810</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,8297</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000333</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">2</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,2797</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1571</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9468</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9442</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9460</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9451</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9482</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9019</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000659</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">3</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,2106</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1315</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9630</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9608</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9652</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9630</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9644</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9195</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000980</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">4</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1745</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1104</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9679</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9693</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9695</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9694</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9694</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9248</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000970</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">5</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1226</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0997</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9698</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9727</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9682</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9704</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9713</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9269</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000960</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">6</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1128</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0630</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9792</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9794</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9771</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9782</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9807</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9372</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000950</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">7</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1109</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0424</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9774</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9746</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9783</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9764</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9789</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9352</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000941</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">8</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,1033</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0415</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9787</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9770</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9811</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9791</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9802</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9366</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000931</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">9</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0959</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0279</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9838</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9857</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9837</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9847</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9853</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9422</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000921</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">10</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0911</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0349</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9852</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9879</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9827</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9853</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9867</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9438</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000911</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">11</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0779</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0510</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9800</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9795</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9792</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9794</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9815</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9381</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000901</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">12</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0711</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0571</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9784</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9754</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9806</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9780</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9799</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9363</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000891</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">13</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0535</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0457</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9800</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9789</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9815</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9802</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9815</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9381</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000881</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">14</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0483</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0467</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9816</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9840</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9799</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9819</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9831</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9398</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000871</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">15</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0559</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0524</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9836</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9860</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9815</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9837</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9851</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9420</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000861</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">16</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0623</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0538</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9855</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9844</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9865</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9854</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9870</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9441</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000852</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">17</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0684</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0542</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9825</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9795</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9849</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9822</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9840</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9408</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000842</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">18</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0676</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0470</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9808</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9803</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9806</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9805</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9823</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9389</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000832</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">19</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0713</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0295</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9840</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9867</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9815</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9841</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9855</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9424</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000822</Data></Cell>
+  </Row>
+  <Row>
+   <Cell ss:StyleID="Ctr"><Data ss:Type="Number">20</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0509</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,0292</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9846</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9865</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9839</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9852</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">1,0000</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9861</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,9431</Data></Cell>
+   <Cell ss:StyleID="Dec"><Data ss:Type="String">0,000812</Data></Cell>
+  </Row>
+ </Table>
+</Worksheet>
+</Workbook>
